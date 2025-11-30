@@ -1,200 +1,282 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Traffic Alchemist AI — Inteligência Real para Escalar Tráfego Pago</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Traffic Alchemist – AI Market & Creative Intelligence for Paid Traffic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-50">
+    <div class="min-h-screen flex flex-col">
+      <!-- NAVBAR -->
+      <header class="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="h-8 w-8 rounded-xl bg-gradient-to-br from-fuchsia-500 to-indigo-400"></div>
+            <div class="flex flex-col">
+              <span class="text-xs uppercase tracking-[0.2em] text-slate-400">Traffic</span>
+              <span class="text-sm font-semibold">Alchemist</span>
+            </div>
+          </div>
+          <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+            <a href="#how" class="hover:text-fuchsia-300">How it works</a>
+            <a href="#modules" class="hover:text-fuchsia-300">Modules</a>
+            <a href="#pricing" class="hover:text-fuchsia-300">Pricing</a>
+            <a href="#faq" class="hover:text-fuchsia-300">FAQ</a>
+          </nav>
+          <div class="flex items-center gap-3">
+            <a
+              href="#pricing"
+              class="hidden md:inline-flex px-3 py-1.5 text-xs rounded-lg border border-slate-700 hover:border-slate-500"
+              >Login (soon)</a
+            >
+            <a
+              href="#pricing"
+              class="inline-flex px-4 py-2 text-xs font-semibold rounded-lg bg-fuchsia-500 hover:bg-fuchsia-400 text-slate-950"
+              >Get Early Access</a
+            >
+          </div>
+        </div>
+      </header>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Inter, Arial, sans-serif;
-      background: #0d0d12;
-      color: #e5e5e5;
-    }
+      <!-- HERO -->
+      <main class="flex-1">
+        <section class="border-b border-slate-900">
+          <div class="max-w-5xl mx-auto px-4 py-16 md:py-20">
+            <div class="flex flex-col md:flex-row gap-10 items-center">
+              <div class="flex-1">
+                <div class="inline-flex items-center gap-2 rounded-full bg-slate-900/70 px-3 py-1 mb-6">
+                  <span class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <span class="text-xs text-slate-300">🔥 Early Access · Lifetime Deal</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-semibold leading-tight mb-4">
+                  Predict winning ad angles
+                  <span class="text-fuchsia-400">before they saturate.</span>
+                </h1>
+                <p class="text-slate-300 text-sm md:text-base mb-6 max-w-xl">
+                  Traffic Alchemist scans markets, competitors and creatives using AI + real data to
+                  find hot opportunities, decaying ads and ready-to-test angles in minutes.
+                </p>
+                <div class="flex flex-wrap items-center gap-4 mb-4">
+                  <a
+                    href="#pricing"
+                    class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold rounded-lg bg-fuchsia-500 hover:bg-fuchsia-400 text-slate-950"
+                    >Get Lifetime Access – $89</a
+                  >
+                  <button
+                    class="inline-flex items-center gap-2 px-4 py-2 text-xs rounded-lg border border-slate-700 hover:border-slate-500 text-slate-200"
+                  >
+                    <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                    Watch 2-minute demo
+                  </button>
+                </div>
+                <p class="text-xs text-slate-400">
+                  Limited to <span class="font-semibold text-slate-200">50 early adopters</span>.
+                  No monthly fees for life.
+                </p>
+              </div>
+              <div
+                class="flex-1 w-full max-w-md rounded-2xl border border-slate-800 bg-gradient-to-b from-slate-900/80 to-slate-950/80 p-4"
+              >
+                <div class="text-xs text-slate-400 mb-2 flex items-center justify-between">
+                  <span>Snapshot · Market Research</span>
+                  <span class="text-emerald-400">AI report ready</span>
+                </div>
+                <div class="h-48 rounded-xl bg-slate-900/80 mb-3 flex items-center justify-center text-slate-500 text-xs">
+                  (Place for your future screenshot / GIF)
+                </div>
+                <ul class="text-xs text-slate-300 space-y-1">
+                  <li>• Detect rising trends and angles in your niche.</li>
+                  <li>• See which creatives are decaying before they die.</li>
+                  <li>• Turn insights into DM/email/ad scripts with one click.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    header {
-      width: 100%;
-      padding: 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: #0f0f16;
-      border-bottom: 1px solid #1f1f2a;
-    }
+        <!-- HOW IT WORKS -->
+        <section id="how" class="border-b border-slate-900">
+          <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+            <h2 class="text-xl md:text-2xl font-semibold mb-6">How Traffic Alchemist works</h2>
+            <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <div class="text-xs text-slate-500 mb-2">Step 1</div>
+                <h3 class="font-semibold mb-2">Pick your niche & competitors</h3>
+                <p>
+                  Choose a product, niche and region. Traffic Alchemist scans public data and AI models to map demand,
+                  saturation and patterns.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <div class="text-xs text-slate-500 mb-2">Step 2</div>
+                <h3 class="font-semibold mb-2">Scan market & creatives</h3>
+                <p>
+                  Get a radar of trends, angles, hooks and offers that are rising – and which ones are already dying.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <div class="text-xs text-slate-500 mb-2">Step 3</div>
+                <h3 class="font-semibold mb-2">Turn insights into campaigns</h3>
+                <p>
+                  Use the Conversation Engine to turn insights into DMs, emails and ad scripts ready to test this week.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 20px;
-      font-weight: 700;
-      color: #c084fc;
-    }
+        <!-- MODULES -->
+        <section id="modules" class="border-b border-slate-900">
+          <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+            <h2 class="text-xl md:text-2xl font-semibold mb-6">5 intelligence engines in one place</h2>
+            <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-300">
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <h3 class="font-semibold mb-1">Market Research Engine</h3>
+                <p>
+                  Discover emerging niches, demand pockets and saturation levels by country and segment in minutes.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <h3 class="font-semibold mb-1">Strategic Expansion Planner</h3>
+                <p>
+                  Turn your current winners into a phased expansion plan with new markets, offers and channels.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <h3 class="font-semibold mb-1">Creative Pattern Analyzer</h3>
+                <p>
+                  Reverse-engineer best performing content and ads to extract hooks, formats, pacing and angles.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                <h3 class="font-semibold mb-1">Creative Decay Engine</h3>
+                <p>
+                  Detect fatigue early. See which creatives are decaying, what to refresh and which patterns still have
+                  room.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-4 md:col-span-2">
+                <h3 class="font-semibold mb-1">Opportunity Feed & Conversation Engine</h3>
+                <p>
+                  A radar of rising topics, products and angles in your niche – and an AI that turns them into human
+                  messages and scripts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    .logo img {
-      width: 32px;
-      height: 32px;
-    }
+        <!-- WHO IT'S FOR -->
+        <section class="border-b border-slate-900">
+          <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+            <h2 class="text-xl md:text-2xl font-semibold mb-6">Built for people who actually spend on ads</h2>
+            <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-300">
+              <ul class="space-y-2">
+                <li>• Performance marketers & media buyers</li>
+                <li>• Small agencies running Meta / Google / TikTok Ads</li>
+                <li>• Creators & infoproduct sellers who launch frequently</li>
+                <li>• Founders who can’t waste hours on manual “market research”</li>
+              </ul>
+              <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4 text-xs">
+                <div class="text-emerald-300 font-semibold mb-1">First 24 hours:</div>
+                <ul class="space-y-1 text-slate-200">
+                  <li>• Map your niche and competitors.</li>
+                  <li>• Get 10+ new angles & hooks to test.</li>
+                  <li>• Identify decaying creatives in your current campaigns.</li>
+                  <li>• Generate DM / email scripts backed by data, not vibes.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    .cta-header {
-      padding: 10px 20px;
-      background: #7c3aed;
-      color: white;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.2s;
-    }
+        <!-- PRICING -->
+        <section id="pricing" class="border-b border-slate-900">
+          <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+            <h2 class="text-xl md:text-2xl font-semibold mb-2">Early Access – one simple deal</h2>
+            <p class="text-sm text-slate-300 mb-6 max-w-xl">
+              I’m still building this in public. If you join now, you get lifetime access for the price of a single
+              month of most tools.
+            </p>
 
-    .cta-header:hover {
-      background: #9d4aff;
-    }
+            <div
+              class="max-w-md rounded-2xl border border-fuchsia-500/60 bg-gradient-to-br from-slate-950 via-slate-950 to-fuchsia-950/20 p-6"
+            >
+              <div class="text-xs uppercase tracking-[0.18em] text-fuchsia-300 mb-2">Lifetime Access</div>
+              <h3 class="text-lg font-semibold mb-2">Traffic Alchemist – Early Access</h3>
+              <p class="text-sm text-slate-200 mb-4">
+                All modules, all future updates, one-time payment. Limited to 50 early adopters.
+              </p>
+              <div class="flex items-baseline gap-2 mb-4">
+                <span class="text-3xl font-semibold">$89</span>
+                <span class="text-xs text-slate-400">one-time · USD</span>
+              </div>
+              <ul class="text-xs text-slate-200 space-y-1 mb-5">
+                <li>• All current intelligence engines</li>
+                <li>• Future module updates</li>
+                <li>• 1:1 onboarding call (20 minutes)</li>
+                <li>• One custom growth plan for your niche</li>
+                <li>• Private Telegram/Discord group</li>
+                <li>• No monthly fees for life</li>
+              </ul>
+              <a
+                href="https://seu-checkout-aqui.com"
+                class="inline-flex w-full items-center justify-center px-4 py-2.5 text-sm font-semibold rounded-lg bg-fuchsia-500 hover:bg-fuchsia-400 text-slate-950"
+                >Get Lifetime Access</a
+              >
+              <p class="mt-3 text-[11px] text-slate-400">
+                14-day “this is useless for me” refund guarantee. No questions asked.
+              </p>
+            </div>
+          </div>
+        </section>
 
-    .hero {
-      padding: 100px 20px;
-      text-align: center;
-      max-width: 900px;
-      margin: auto;
-    }
+        <!-- FAQ -->
+        <section id="faq">
+          <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+            <h2 class="text-xl md:text-2xl font-semibold mb-6">FAQ</h2>
+            <div class="space-y-4 text-sm text-slate-200">
+              <div>
+                <h3 class="font-semibold mb-1">Is this ready for production?</h3>
+                <p class="text-slate-300">
+                  It’s in active development, but all core engines are already working. Early adopters get new features
+                  first and lifetime access.
+                </p>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-1">Do you connect to my ad accounts?</h3>
+                <p class="text-slate-300">
+                  Right now: no connection needed. You can paste your own metrics or use public data. Private account
+                  integrations may come later.
+                </p>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-1">Who is behind Traffic Alchemist?</h3>
+                <p class="text-slate-300">
+                  A solo founder/CTO who has been building SaaS and running paid traffic for years. This tool is built
+                  out of frustration with fluffy AI tools that ignore real performance.
+                </p>
+              </div>
+              <div>
+                <h3 class="font-semibold mb-1">What about refunds?</h3>
+                <p class="text-slate-300">
+                  If you try it and feel it’s useless for your workflow in the first 14 days, email me and I’ll refund
+                  you. No questions asked.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
-    .hero h1 {
-      font-size: 48px;
-      font-weight: 800;
-      background: linear-gradient(90deg, #c084fc, #8b5cf6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero p {
-      margin-top: 20px;
-      font-size: 18px;
-      line-height: 1.6;
-      color: #bdbdbd;
-    }
-
-    .cta-primary {
-      margin-top: 40px;
-      padding: 18px 32px;
-      background: #7c3aed;
-      color: #fff;
-      border-radius: 10px;
-      font-size: 18px;
-      text-decoration: none;
-      font-weight: 700;
-      display: inline-block;
-      transition: 0.2s;
-    }
-
-    .cta-primary:hover {
-      background: #9d4aff;
-    }
-
-    .section {
-      margin: 80px auto;
-      max-width: 900px;
-      padding: 20px;
-    }
-
-    .section h2 {
-      font-size: 32px;
-      margin-bottom: 20px;
-      color: #c084fc;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      margin-top: 40px;
-    }
-
-    .card {
-      background: #15151f;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid #1f1f2a;
-      transition: 0.2s;
-    }
-
-    .card:hover {
-      border-color: #7c3aed;
-    }
-
-    footer {
-      text-align: center;
-      padding: 40px;
-      color: #666;
-      font-size: 14px;
-      margin-top: 40px;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- HEADER -->
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="logo">
-      Traffic Alchemist AI
+      <footer class="border-t border-slate-900 py-4 text-center text-[11px] text-slate-500">
+        © <span id="year"></span> Traffic Alchemist. Built for performance marketers.
+      </footer>
     </div>
-    <a href="#comprar" class="cta-header">Acessar Agora</a>
-  </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <h1>Transforme Dados Reais em Vendas com Inteligência de Tráfego</h1>
-    <p>
-      O Traffic Alchemist é um motor de inteligência que analisa sinais de mercado,
-      detecta padrões de anúncios, oportunidades emergentes e transforma tudo isso
-      em estratégias práticas para você escalar campanhas em minutos — não horas.
-    </p>
-    <a href="#comprar" class="cta-primary">Ativar Acesso — $89</a>
-  </section>
-
-  <!-- FEATURES -->
-  <section class="section">
-    <h2>O que você pode fazer com o Traffic Alchemist?</h2>
-    <div class="features">
-      <div class="card">
-        <h3>📡 Pesquisa de Mercado em Tempo Real</h3>
-        <p>Análise de tendências, demandas e saturação com dados públicos reais.</p>
-      </div>
-      <div class="card">
-        <h3>🧬 Análise de Padrões Criativos</h3>
-        <p>Engenharia reversa do DNA de anúncios vencedores — ritmo, hooks e edição.</p>
-      </div>
-      <div class="card">
-        <h3>⚡ Motor de Oportunidades</h3>
-        <p>Identifique produtos, ângulos e temas ascendentes antes de todos.</p>
-      </div>
-      <div class="card">
-        <h3>🤖 Conversas de Alta Conversão</h3>
-        <p>Gere mensagens humanas para vendas inbound e outbound em segundos.</p>
-      </div>
-      <div class="card">
-        <h3>📉 Detector de Fadiga Criativa</h3>
-        <p>Descubra quando seus anúncios vão morrer — e o que testar no lugar.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA FINAL -->
-  <section class="section" id="comprar" style="text-align: center;">
-    <h2>Acesso Imediato</h2>
-    <p style="max-width: 600px; margin: auto; color:#bdbdbd;">
-      Pague uma vez. Acesso completo às ferramentas, atualizações e módulos premium.
-      Suporte direto com especialista. Sem mensalidade.
-    </p>
-    <a class="cta-primary" href="#">
-      Comprar Agora — $89
-    </a>
-  </section>
-
-  <footer>
-    © 2025 Traffic Alchemist AI — All rights reserved.
-  </footer>
-
-</body>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
