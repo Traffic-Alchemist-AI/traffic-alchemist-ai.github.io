@@ -1,0 +1,28 @@
+{
+  "name": "Traffic Alchemist – AI Market & Creative Intelligence",
+  "short_name": "Traffic Alchemist",
+  "description": "Predict winning ad angles before they saturate. AI-powered market research and creative intelligence for performance marketers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d946ef",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "marketing"],
+  "lang": "en",
+  "dir": "ltr"
+}
+
